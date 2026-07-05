@@ -192,40 +192,6 @@ All visuals update automatically based on selected filters.
 
 ---
 
-# 📂 Repository Structure
-
-```
-Swiggy-Food-Delivery-Analytics-PowerBI
-│
-├── Dashboard Images
-│   ├── Dashboard Overview.png
-│   ├── Filter - Cuisine.png
-│   ├── Filter - Indian.png
-│   ├── Filter - Chinese.png
-│   └── Filter - City.png
-│
-├── Dataset
-│   └── Swiggy_Order_Dataset.csv
-│
-├── Power BI File
-│   └── Swiggy.pbix
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
-# 🚀 How to Use
-
-1. Clone this repository.
-2. Open the `.pbix` file using Microsoft Power BI Desktop.
-3. Refresh the dataset if required.
-4. Explore the dashboard using the interactive slicers.
-
----
-
 # 📌 Future Improvements
 
 - Add profitability analysis
