@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 
-The **Swiggy Food Delivery Analytics Dashboard** is an interactive Business Intelligence project developed in **Microsoft Power BI** to analyze food delivery operations and customer behavior. This dashboard transforms raw order data into meaningful business insights using **Power Query**, **DAX**, and interactive visualizations.
+The **Swiggy Food Delivery Analytics Dashboard** is an interactive Business Intelligence project developed using **Microsoft Power BI** to analyze food delivery operations and customer behavior. The dashboard transforms raw order data into actionable business insights through **Power Query**, **DAX**, and interactive visualizations.
 
-It enables users to monitor key performance indicators (KPIs), analyze revenue trends, compare city performance, evaluate payment preferences, and understand customer ordering patterns through dynamic filters and drill-down analysis.
+It enables stakeholders to monitor key performance indicators (KPIs), analyze revenue trends, compare city performance, evaluate payment preferences, and understand customer ordering behavior using dynamic filters and drill-down analysis.
 
 ---
 
@@ -12,46 +12,56 @@ It enables users to monitor key performance indicators (KPIs), analyze revenue t
 
 The primary objective of this dashboard is to help business stakeholders:
 
-- Monitor overall business performance
-- Analyze monthly revenue trends
-- Identify top-performing cities
-- Compare cuisine-wise sales
-- Track customer ordering behavior
-- Evaluate delivery performance
-- Understand payment preferences
-- Support data-driven business decisions
+- 📈 Monitor overall business performance
+- 💰 Analyze monthly revenue trends
+- 🏙️ Identify top-performing cities
+- 🍽️ Compare cuisine-wise sales
+- 🛒 Track customer ordering behavior
+- 🛵 Evaluate delivery performance
+- 💳 Understand payment preferences
+- 📊 Support data-driven business decisions
 
 ---
 
 # 📊 Dashboard Preview
 
-## Main Dashboard
+## 🏠 Main Dashboard
 
-![Dashboard Overview](Dashboard%20Images/Dashboard%20Overview.png)
+The complete dashboard provides an overview of revenue, orders, customer ratings, delivery performance, payment methods, city-wise analysis, and ordering patterns.
 
----
-
-## Indian Cuisine Analysis
-
-![Indian Cuisine](Dashboard%20Images/Filter%20-%20Indian.png)
+![Dashboard Overview](images/Dashboard%20Overview.png)
 
 ---
 
-## Chinese Cuisine Analysis
+## 🍛 Indian Cuisine Analysis
 
-![Chinese Cuisine](Dashboard%20Images/Filter%20-%20Chinese.png)
+This view filters the dashboard to display insights specifically for **Indian Cuisine**, allowing users to compare KPIs and performance.
 
----
-
-## Interactive City Filter
-
-![City Filter](Dashboard%20Images/Filter%20-%20City.png)
+![Indian Cuisine](images/Filter%20-%20Indian.png)
 
 ---
 
-## Cuisine Filter
+## 🥡 Chinese Cuisine Analysis
 
-![Cuisine Filter](Dashboard%20Images/Filter%20-%20Cuisine.png)
+This filtered dashboard displays analytics for **Chinese Cuisine**, highlighting changes in revenue, customer count, and city rankings.
+
+![Chinese Cuisine](images/Filter%20-%20Chinese.png)
+
+---
+
+## 🏙️ City-wise Analysis
+
+The City filter enables users to analyze business performance for individual cities.
+
+![City Filter](images/Filter%20-%20City.png)
+
+---
+
+## 🍽️ Cuisine Filter
+
+The interactive Cuisine slicer allows comparison across multiple cuisine categories.
+
+![Cuisine Filter](images/Filter%20-%20Cuisine.png)
 
 ---
 
@@ -87,10 +97,10 @@ The dashboard tracks the following key business metrics:
 
 Displays monthly revenue trends throughout the year.
 
-**Business Value**
+### Business Value
 
 - Monitor revenue growth
-- Identify seasonal patterns
+- Identify seasonal trends
 - Compare monthly performance
 
 ---
@@ -99,38 +109,38 @@ Displays monthly revenue trends throughout the year.
 
 Shows cities generating the highest revenue.
 
-**Business Value**
+### Business Value
 
 - Identify top-performing markets
 - Compare regional performance
-- Support expansion planning
+- Support business expansion
 
 ---
 
 ## 🔥 Order by Day & Hour Heatmap
 
-Visualizes customer ordering behavior across weekdays and hours.
+Visualizes customer ordering behavior by day of the week and hour of the day.
 
-**Business Value**
+### Business Value
 
 - Identify peak ordering hours
-- Improve delivery workforce planning
-- Optimize operational efficiency
+- Optimize workforce planning
+- Improve delivery efficiency
 
 ---
 
 ## 💳 Payment Method Distribution
 
-Displays the proportion of orders made using:
+Displays the percentage of orders made using:
 
 - Wallet
 - Cash
 - Credit Card
 
-**Business Value**
+### Business Value
 
 - Understand customer payment preferences
-- Support digital payment strategies
+- Promote digital payment adoption
 
 ---
 
@@ -138,11 +148,11 @@ Displays the proportion of orders made using:
 
 Maps order distribution across Indian cities.
 
-**Business Value**
+### Business Value
 
-- Analyze geographical demand
-- Identify high-demand regions
-- Support logistics planning
+- Analyze regional demand
+- Identify high-demand locations
+- Improve logistics planning
 
 ---
 
@@ -150,21 +160,21 @@ Maps order distribution across Indian cities.
 
 The dashboard includes dynamic slicers for:
 
-- Gender
-- City
-- Cuisine Type
+- 👤 Gender
+- 🏙️ City
+- 🍽️ Cuisine Type
 
-All visuals update automatically based on selected filters.
+All visuals update automatically based on the selected filters, enabling interactive business analysis.
 
 ---
 
 # 💡 Key Business Insights
 
-- Revenue remains consistent across most months with slight seasonal fluctuations.
-- A few cities contribute significantly to total revenue.
-- Customer ordering patterns vary depending on the day and hour.
-- Digital payment methods account for a large share of transactions.
-- Interactive filtering enables quick comparison across cities and cuisines.
+- Revenue remains relatively stable throughout the year with minor seasonal fluctuations.
+- A small number of cities contribute a significant share of total revenue.
+- Customer ordering behavior varies by day and hour.
+- Digital payment methods are widely adopted.
+- Interactive filters provide quick comparisons across cities, cuisines, and customer segments.
 
 ---
 
@@ -172,7 +182,7 @@ All visuals update automatically based on selected filters.
 
 - Microsoft Power BI
 - Power Query
-- DAX
+- DAX (Data Analysis Expressions)
 - CSV Dataset
 
 ---
@@ -182,26 +192,60 @@ All visuals update automatically based on selected filters.
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Calculations
+- DAX Measures
 - KPI Reporting
 - Dashboard Design
 - Business Intelligence
-- Data Visualization
 - Interactive Reporting
+- Data Visualization
 - Analytical Thinking
 
 ---
 
 # 📌 Future Improvements
 
-- Add profitability analysis
-- Customer segmentation dashboard
-- Delivery partner performance
-- Time-series forecasting
-- Mobile responsive dashboard
-- Advanced DAX measures
-- Drill-through pages
-- KPI alerts
+- Customer Segmentation Analysis
+- Profitability Dashboard
+- Delivery Partner Performance
+- Time-Series Forecasting
+- Drill-through Reports
+- Advanced DAX KPIs
+- Mobile-Optimized Dashboard
+- AI-powered Insights
+
+---
+
+# 📂 Repository Structure
+
+```
+Swiggy-Food-Delivery-Analytics-PowerBI
+│
+├── images/
+│   ├── Dashboard Overview.png
+│   ├── Filter - Cuisine.png
+│   ├── Filter - Indian.png
+│   ├── Filter - Chinese.png
+│   └── Filter - City.png
+│
+├── Dataset/
+│   └── Swiggy_Order_Dataset.csv
+│
+├── Power BI File/
+│   └── Swiggy.pbix
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+# 🚀 How to Use
+
+1. Clone this repository.
+2. Open the **Swiggy.pbix** file in **Microsoft Power BI Desktop**.
+3. Refresh the dataset if required.
+4. Explore the dashboard using the interactive slicers.
 
 ---
 
@@ -209,9 +253,9 @@ All visuals update automatically based on selected filters.
 
 **Ritesh Pradhan**
 
-🔗 LinkedIn: https://www.linkedin.com/in/ritesh-pradhan23/
+🔗 **LinkedIn:** https://www.linkedin.com/in/ritesh-pradhan23/
 
-🔗 GitHub: https://github.com/Ritesh-Pradhan-23
+🔗 **GitHub:** https://github.com/Ritesh-Pradhan-23
 
 ---
 
